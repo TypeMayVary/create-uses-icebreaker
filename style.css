@@ -1,0 +1,130 @@
+/* style.css */
+body {
+    background: #f7faff;
+    font-family: 'Quicksand', 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2d3559;
+}
+.main {
+    max-width: 480px;
+    margin: 36px auto 0 auto;
+    padding: 24px 12px 40px 12px;
+    background: #fff;
+    border-radius: 22px;
+    box-shadow: 0 4px 24px rgba(44, 120, 220, 0.08);
+}
+.title {
+    font-size: 2.4em;
+    font-weight: 800;
+    color: #3b82f6;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+.title span {
+    display: block;
+}
+.title span:first-child {
+    font-size: 1.1em;
+    font-weight: 800;
+    color: #3b82f6;
+    margin-bottom: 2px;
+}
+.title span:last-child {
+    font-size: 0.9em;
+    font-weight: 700;
+    color: #2563eb;
+    letter-spacing: 0.5px;
+}
+.intro {
+    font-size: 1.15em;
+    color: #4f5d75;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.overview {
+    margin-bottom: 28px;
+}
+.overview ol {
+    padding-left: 22px;
+    color: #2563eb;
+    font-size: 1.08em;
+    font-weight: 600;
+    margin: 0;
+}
+.overview li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+.object-list-section h2 {
+    color: #2563eb;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.object-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.08em;
+}
+.object-list li {
+    background: #e0eaff;
+    color: #2563eb;
+    margin-bottom: 12px;
+    padding: 12px 16px;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 0 1px 4px rgba(44,120,220,0.06);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.object-list li strong {
+    color: #2d3559;
+    font-weight: 700;
+}
+@media (max-width: 600px) {
+    .main {
+        padding: 10px 2vw 24px 2vw;
+        margin: 10px 0 0 0;
+    }
+    .title {
+        font-size: 1.4em;
+    }
+    .intro {
+        font-size: 1em;
+    }
+    .object-list li, .object-list th, .object-list td {
+        padding: 10px 4px;
+    }
+}
+.examples-section {
+    margin-top: 32px;
+    background: #f3f7ff;
+    border-radius: 14px;
+    padding: 18px 14px 14px 14px;
+    box-shadow: 0 1px 6px rgba(44,120,220,0.04);
+}
+.examples-section h2 {
+    color: #2563eb;
+    font-size: 1.15em;
+    margin-bottom: 10px;
+}
+.examples-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.examples-list li {
+    margin-bottom: 10px;
+    padding-left: 0.5em;
+    color: #374151;
+    font-size: 1em;
+    position: relative;
+}
+.examples-list li strong {
+    color: #2563eb;
+    font-weight: 700;
+} 
